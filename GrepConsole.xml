@@ -175,19 +175,6 @@
                       </option>
                     </GrepExpressionItem>
                     <GrepExpressionItem>
-                      <option name="grepExpression" value=".*STARTED*" />
-                      <option name="style">
-                        <GrepStyle>
-                          <option name="backgroundColor">
-                            <GrepColor>
-                              <option name="color" value="-15925492" />
-                              <option name="enabled" value="true" />
-                            </GrepColor>
-                          </option>
-                        </GrepStyle>
-                      </option>
-                    </GrepExpressionItem>
-                    <GrepExpressionItem>
                       <option name="grepExpression" value=".*INFO.*" />
                       <option name="style">
                         <GrepStyle>
@@ -199,6 +186,7 @@
                           </option>
                         </GrepStyle>
                       </option>
+                      <option name="unlessGrepExpression" value="" />
                     </GrepExpressionItem>
                     <GrepExpressionItem>
                       <option name="grepExpression" value=".*DEBUG.*" />
@@ -240,6 +228,42 @@
                 </option>
                 <option name="name" value="default" />
               </GrepExpressionGroup>
+              <GrepExpressionGroup>
+                <option name="grepExpressionItems">
+                  <list>
+                    <GrepExpressionItem>
+                      <option name="grepExpression" value=".*BundleSratStopLogger.*" />
+                      <option name="style">
+                        <GrepStyle>
+                          <option name="backgroundColor">
+                            <GrepColor>
+                              <option name="color" value="-15925492" />
+                            </GrepColor>
+                          </option>
+                          <option name="bold" value="true" />
+                          <option name="italic" value="true" />
+                        </GrepStyle>
+                      </option>
+                    </GrepExpressionItem>
+                    <GrepExpressionItem>
+                      <option name="enabled" value="false" />
+                      <option name="grepExpression" value=".*STOPPED.*" />
+                      <option name="style">
+                        <GrepStyle>
+                          <option name="backgroundColor">
+                            <GrepColor>
+                              <option name="color" value="-256" />
+                            </GrepColor>
+                          </option>
+                          <option name="bold" value="true" />
+                          <option name="italic" value="true" />
+                        </GrepStyle>
+                      </option>
+                    </GrepExpressionItem>
+                  </list>
+                </option>
+                <option name="name" value="Liferay" />
+              </GrepExpressionGroup>
             </list>
           </option>
           <option name="id" value="1596637793162" />
@@ -264,6 +288,7 @@
               </GrepExpressionGroup>
             </list>
           </option>
+          <option name="multiLineOutput" value="true" />
           <option name="name" value="Liferay" />
         </Profile>
       </list>
