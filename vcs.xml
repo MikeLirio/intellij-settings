@@ -10,8 +10,12 @@
           <option name="url" value="http://steps.everis.com" />
           <option name="userName" value="mliriovi" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="https://steps.everis.com/git/MCDMIGDXP/ourloungecloud.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
       </list>
     </option>
-    <option name="cloneParentDir" value="E:\Desarrollo\gobsmack\morethan" />
+    <option name="cloneParentDir" value="E:\Desarrollo\liferay\mcdonalds" />
   </component>
 </application>
