@@ -69,11 +69,11 @@
                           <option name="backgroundColor">
                             <GrepColor>
                               <option name="color" value="-7016694" />
+                              <option name="enabled" value="true" />
                             </GrepColor>
                           </option>
                           <option name="foregroundColor">
                             <GrepColor>
-                              <option name="color" value="-55840" />
                               <option name="enabled" value="true" />
                             </GrepColor>
                           </option>
